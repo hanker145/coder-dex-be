@@ -1,8 +1,10 @@
 {
-  "rewrites": [
+  "version": 2,
+  "name": "pokemon",
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "app.js",
+      "use": "@vercel/node"
     }
   ]
 }
