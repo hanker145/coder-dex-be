@@ -10,7 +10,6 @@ const absolutePath = resolve("./pokemon.json");
 let db = fs.readFileSync(absolutePath, "utf-8");
 db = JSON.parse(db);
 // let { data } = db;
-console.log("data db", db.pokemons);
 
 /* GET all data, filter by name, types */
 var data = {};
